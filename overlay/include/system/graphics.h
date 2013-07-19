@@ -137,8 +137,7 @@ enum {
      * framework will assume that sampling the texture will always return an
      * alpha value of 1.0 (i.e. the buffer contains only opaque pixel values).
      *
-     */
-    HAL_PIXEL_FORMAT_IMPLEMENTATION_DEFINED = 0x22,
+     */ HAL_PIXEL_FORMAT_IMPLEMENTATION_DEFINED = 0x22,  */
 
 #ifdef STE_HARDWARE
     /* STE: Added Support of YUV42XMBN, required for Copybit CC acceleration */
